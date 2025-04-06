@@ -7,6 +7,7 @@
     --Primary-color-black-green: #143C3C;
     --Primary-color-black: #152427;
     --text-color-light-gray: #7D8188;
+    --Scondery-color-light-green: #E2EDDF;
 }
 
 html {
@@ -247,4 +248,34 @@ a {
     position: absolute;
     top: 122px;
     left: 622px;
+}
+
+/* =========================Sponsor========================== */
+.sponsor {
+    margin-top: 70px;
+}
+
+.sponsor__row {
+    padding: 76px 0px 77px;
+    border-radius: 999px;
+    background: var(--Scondery-color-light-green, #E2EDDF);
+}
+
+.sponsor-list {
+    padding: 0px 122px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sponsor-list__discord {
+    display: flex;
+    align-items: center;
+    column-gap: 11px;
+}
+
+.sponsor-list__discord--desc {
+    color: #163C35;
+    font-size: 26px;
+    line-height: normal;
 }
