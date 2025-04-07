@@ -276,13 +276,14 @@ a {
 
 .sponsor-list__discord--desc {
     color: #163C35;
-    font-size: 26px;
+    font-size: 2.6rem;
     line-height: normal;
 }
 
 /* =========================Service========================== */
 .service {
-    margin-top: 106px;
+    margin-top: 67px;
+    padding: 39px 0px;
 }
 
 .service__greet {
@@ -389,14 +390,196 @@ a {
 
 .service-item-body__title {
     color: var(--Primary-color-black, #152427);
-    font-size: 22px;
+    font-size: 2.2rem;
     font-weight: 600;
 }
 
 .service-item-body__desc {
     margin-top: 18px;
     color: var(--text-color-light-gray, #7D8188);
-    font-size: 14px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.71429;
+}
+
+/* =========================About========================== */
+.about {
+    padding: 110px 0px;
+}
+
+.about__body {
+    display: flex;
+    column-gap: 64px;
+}
+
+.about-left {
+    position: relative;
+    padding-top: 13px;
+    font-family: "Public Sans";
+    width: 51.8421%;
+    height: 557px;
+    display: flex;
+    column-gap: 21px;
+}
+
+.about-image {
+    width: 284px;
+    height: 480px;
+    border-radius: 999px;
+    overflow: hidden;
+    box-shadow: 0px 4px 234px 11px rgba(59, 137, 71, 0.25);
+}
+
+.about-image:first-child {
+    margin-top: 77px;
+}
+
+.about-image__img {
+    width: 100%;
+    height: 480px;
+    object-fit: cover;
+}
+
+.about-stat {
+    position: absolute;
+    bottom: -8px;
+    right: -9px;
+    padding: 19px 23px 11px;
+    background: #FFF;
+    border-radius: 8px;
+    box-shadow: 0px 7px 54px 0px rgba(154, 154, 154, 0.25);
+}
+
+.about-stat__heading {
+    color: var(--Primary-color-black, #152427);
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+.about-stat__desc {
+    margin-top: 6px;
+    color: var(--text-color-black-gray, #575D5E);
+    font-size: 1rem;
+    line-height: 1.4;
+}
+
+.about-loading {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.about-loading__num,
+.about-loading__load,
+.about-stat__row--team {
+    color: var(--Primary-color-black, #152427);
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.4;
+}
+
+.about-loading__load {
+    margin-top: 22px;
+}
+
+.about-loading__decor {
+    position: absolute;
+    top: 17px;
+}
+
+.about-stat__icon {
+    margin-top: 3px;
+}
+
+.about-stat__row {
+    margin-top: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about-stat__row-member {
+    display: flex;
+    align-items: center;
+}
+
+.about-stat__row-member-img {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    border: 1px solid #FFF;
+}
+
+.about-stat__row-member-img:not(:first-child) {
+    margin-left: -6px;
+}
+
+.about__decor {
+    position: absolute;
+    transform: rotate(12.645deg);
+    top: 23px;
+    right: 0px;
+}
+
+.about__decor-flower {
+    position: absolute;
+    transform: rotate(164.985deg);
+    top: -23px;
+    right: 468px;
+}
+
+.about-info {
+    width: 42.544%;
+}
+
+.about-info__greet {
+    position: relative;
+    margin-left: 46px;
+    color: var(--Primary-color-black, #152427);
+    font-weight: 500;
+    line-height: 1.125;
+}
+
+.about-info__greet::before {
+    content: "";
+    display: inline-block;
+    width: 25px;
+    height: 1px;
+    background: var(--Primary-color-black, #152427);
+    position: absolute;
+    top: 9px;
+    left: -46px;
+}
+
+.about-info__heading {
+    margin-top: 20px;
+}
+
+.about-info__desc {
+    margin-top: 11px;
+}
+
+.about-info-row {
+    margin-top: 37px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #83A17D;
+    display: flex;
+    align-items: center;
+    column-gap: 24px;
+}
+
+.about-info-row__strong {
+    color: var(--Primary-color-black, #152427);
+    font-size: 4.2rem;
+    font-weight: 600;
+    line-height: 1.2381;
+}
+
+.about-info-row__desc {
+    max-width: 364px;
+    color: var(--text-color-light-gray, #7D8188);
+    font-size: 1.4rem;
     font-weight: 500;
     line-height: 1.71429;
 }
