@@ -850,6 +850,16 @@ a {
   text-underline-offset: 3px;
 }
 
+.project__arrow {
+  color: #80a07b;
+  transition: 0.25s;
+}
+
+.project-action:hover .project__arrow {
+  margin-left: 10px;
+  color: #fff;
+}
+
 .project-image {
   position: relative;
   margin-top: 65px;
@@ -1149,6 +1159,7 @@ a {
 .footer-form__submit {
   border: none;
   outline: none;
+  padding: 0;
   background: transparent;
   display: flex;
   justify-content: center;
@@ -1157,6 +1168,14 @@ a {
   bottom: 32px;
   right: 13px;
   cursor: pointer;
+}
+
+.footer-form__arrow {
+  color: #c4c4c4;
+}
+
+.footer-form__arrow:hover {
+  color: #a75325;
 }
 
 .footer-social {
